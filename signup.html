@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+    <link rel="icon" type="image/ico" href="./Images/cloud.png" />
+    <link rel="stylesheet" href="./CSS/signup.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="outerbox">
+        <div class="details">
+            <span id="welctext">Create your free account</span>
+
+            <form>
+            <span id="nametext">Username</span>
+            <input type="email"  id="signinput" name="email" placeholder="Enter you username" required><span id="fullnametag"></span>
+
+       <span id="emailtext">Email</span>
+                    <input type="email" id="signemail" name="email" placeholder="Enter you email" required/><span id="signmailtag"></span>
+
+            <span id="pass">Password</span>
+            <input type="password"  id="signpass" name="password" placeholder="********" required>
+            <span id="passwdtag"></span>
+
+            <span id="conpass">Confirm Password</span>
+            <input type="password"  id="consignpass" name="password" placeholder="********" required>
+                <span id="confirmpasstag"></span>
+
+            <button onclick="signUpSuccess()" type="button" class="logbtn3" id="signbtn" >Sign up</button>
+
+            <span id="createacc">Already have an account?
+            <a href="./login.html" id="loginlink" >Login here</a>
+            </span>
+</form>
+
+        </div>
+
+        <div class="img">
+
+            <img alt="loginboxiamge" id="veclogimg" src="./Images/Illustrations/login__.png">
+        </div>
+        </div>
+
+    </div>
+    <script src="JS/signup.js"></script>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

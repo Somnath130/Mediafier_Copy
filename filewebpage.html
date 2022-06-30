@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/ico" href="./Images/cloud.png" />
+
+  <!----======== CSS ======== -->
+  <link rel="stylesheet" href="./CSS/filewebpage.css" />
+
+  <!----===== Iconscout CSS ===== -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+  <script async src="https://kit.fontawesome.com/aeb61d4bc3.js" crossorigin="anonymous"></script>
+
+  <title>Mediafier</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body >
+  <div class="topnav">
+    <nav>
+      <img class="logo" src="./Images/cloud.png" alt="logo" />
+      <span class="logoname">Mediafier</span>
+
+      <div class="searchbox">
+        <button title="search" class="searchicon">
+          <i class="uil uil-search fa-lg"></i>
+        </button>
+        <input type="text" placeholder="Search for files" class="navinput" id="inp" oninput="search()"/>
+      </div>
+    </nav>
+  </div>
+
+  <div class="sideitems">
+    <div class="dropdown">
+    <div class="fileupload" id="dropdownMenu" data-toggle="dropdown">
+      <div class="ellipse">
+        <div class="uploadplus"><i class="uil uil-plus fa-xl"></i></div>
+      </div>
+      <div class="uploadtext">Upload</div>
+      </div>
+      <div class="dropdown-menu" aria-labelledby="exampleModalLabel">
+        <!-- <a class="dropdown-item" href="#" data-toggle="modal" data-target="#createModal">Create a file</a> -->
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalbox"> Upload a file </a>
+
+      </div>  
+  </div>
+<a href="./home2.html">
+  <div class="myDrive">
+    <i class="uil uil-cloud fa-2x"></i><span class="myDrivetext">My drive</span>
+  </div></a>
+  <a href="./filewebpage.html">
+  <div class="myPc">
+    <i class="uil uil-desktop fa-2x"></i><span class="myPctext">Files</span>
+  </div></a>
+  <div class="myTrash">
+    <i class="uil uil-trash-alt fa-2x"></i><span class="myTrashtext">Trash</span>
+  </div>
+  <a href="./login.html">
+    <div class="Logout">
+      <i class="uil uil-signout fa-2x"></i><span class="logouttext" id="log" onclick="logout()">Logout</span>
+    </div>
+  </a>
+
+  <img class="upgradeimg" src="./Images/Illustrations/upgradeimg.png" alt="upgrade image" />
+
+  <span id="upgradehead">Unlock your plan</span>
+  <span id="upgradetext">Expanded storage, access to more features on Medifier</span>
+
+  <a href="#">
+    <div class="upgradebtn"><span id="btnup">Upgrade</span></div>
+  </a>
+  </div>
+
+  <!-- file upload modal -->
+  <div
+      class="modal fade"
+      id="modalbox"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenter"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="uploadmodal">Upload file</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <img src="./Images/Illustrations/upload.png" alt="file image" class="fileimage">
+          </div>
+          <div class="modal-footer">
+            <input type="file" id="fileupload" multiple/>
+            <button onclick="addfile()" value="upload" type="button" class="btn btn-primary" data-dismiss="modal">Upload</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div id="foldercontainer">
+
+  <div class="folderText">My Files</div>
+
+<div id="folderContent">
+
+</div>
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script defer src="./JS/filewebpage.js"></script>
+</body>
+
+</html>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

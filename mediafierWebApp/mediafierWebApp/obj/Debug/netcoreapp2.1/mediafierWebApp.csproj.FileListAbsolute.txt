@@ -1,0 +1,56 @@
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.deps.json
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.json
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.dev.json
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.dll
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.pdb
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csprojAssemblyReference.cache
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csproj.CoreCompileInputs.cache
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cache
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cs
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfoInputs.cache
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfo.cs
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorTargetAssemblyInfo.cache
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.dll
+C:\Users\rishit.kaul\Desktop\mediafier\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.pdb
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.deps.json
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.json
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.dev.json
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.dll
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.pdb
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csprojAssemblyReference.cache
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csproj.CoreCompileInputs.cache
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cache
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cs
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfoInputs.cache
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfo.cs
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorTargetAssemblyInfo.cache
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.dll
+D:\Mediafier_backend\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.pdb
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.deps.json
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.json
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.dev.json
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.dll
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.pdb
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csproj.CoreCompileInputs.cache
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cache
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cs
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfoInputs.cache
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfo.cs
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorTargetAssemblyInfo.cache
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.dll
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.pdb
+D:\Projects\CG_Docs_Project\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csprojAssemblyReference.cache
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.deps.json
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.json
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.dev.json
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.dll
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.pdb
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csprojAssemblyReference.cache
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csproj.CoreCompileInputs.cache
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cache
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cs
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfoInputs.cache
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.AssemblyInfo.cs
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorTargetAssemblyInfo.cache
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.dll
+D:\mediafier copy\Mediafer\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.pdb

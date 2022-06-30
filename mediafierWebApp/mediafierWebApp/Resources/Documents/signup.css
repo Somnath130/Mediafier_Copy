@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg, #234B85, rgb(107, 186, 240));
+}
+
+div.container {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1297px;
+    height: 725px;
+    left: 311px;
+    top: 108px;
+
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 31px 37px 19px rgba(0, 0, 0, 0.25);
+}
+
+
+#veclogimg {
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    left: 600px;
+    top: 80px;
+}
+
+#welctext {
+    position: absolute;
+    width: 260px;
+    height: 98px;
+    left: 100px;
+    top: 100px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#nametext {
+    position: absolute;
+    left: 100px;
+    top: 190px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+#signinput {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 354px;
+    height: 43px;
+    left: 100px;
+    top: 210px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+}
+
+#emailtext {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 100px;
+    top: 270px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+#logemail {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 354px;
+    height: 43px;
+    left: 100px;
+    top: 290px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+}
+
+
+#pass {
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    left: 100px;
+    top: 350px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+#logpass {
+    box-sizing: border-box;
+font-size: 10px;
+    position: absolute;
+    width: 354px;
+    height: 43px;
+    left: 100px;
+    top: 370px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+}
+
+#conpass {
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    left: 100px;
+    top: 430px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+#consignpass {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 354px;
+    height: 43px;
+    left: 100px;
+    top: 450px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+}
+
+#forgetpass {
+    position: absolute;
+    width: 117px;
+    height: 12px;
+    left: 360px;
+    top: 420px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+}
+
+ .logbtn3 {
+    position: absolute;
+    width: 354px;
+    height: 43px;
+    left: 100px;
+    top: 515px;
+    background-color: #234B85;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.logbtn3:hover {
+    color: #234B85;
+    background-color: white;
+    border: solid 1px #234B85;
+    transition: .4s;
+    font-weight: 500;
+} 
+
+#createacc {
+    position: absolute;
+    width: 400px;
+    height: 18px;
+    left: 180px;
+    top: 600px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.Accbtn3 {
+    position: absolute;
+    width: 354px;
+    height: 43px;
+    left: 100px;
+    top: 625px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+/* .logbtn3 {
+    color:#FFFFFF;
+    transition: all 0.5s;
+    position: relative;
+    border: none;
+}
+
+
+.logbtn3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+       width: 354px;
+       height: 43px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+    color: #234B85;
+}
+.logbtn3:hover::before {
+    color: #234B85;
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.logbtn3::after {
+    content: '';
+    position: absolute;
+    color: #234B85;
+    top: 0;
+    left: 0;
+     width: 354px;
+     height: 43px;
+    z-index: 1;
+    opacity: 0;
+    
+    transition: all 0.3s;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(2, 7, 73);
+    transform: scale(1.2, 1.2);
+}
+
+.logbtn3:hover::after {
+    opacity: 1;
+    color: #234B85;
+    transform: scale(1, 1);
+} */

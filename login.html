@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+    <link rel="icon" type="image/ico" href="./Images/cloud.png" />
+    <link rel="stylesheet" href="./CSS/login.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="outerbox">
+            <div class="details">
+                <span id="welctext">Welcome back!</span>
+
+                <form>
+                    <span id="emailtext">Username</span>
+                    <input type="email" class="logemail" id="logmail" name="email" placeholder="Enter your username"
+                        required />
+
+                        <span id="emailtag"></span>
+
+                    <span id="pass">Password</span>
+                      <input autocomplete="off" type="password" class="logpass" id="loginpasswd" name="password" placeholder="********"/>
+                    <span id="pswdtag"></span>
+                    <!-- <span id="forgetpass">Forgot Password?</span> -->
+                        <div id="loginalert"></div>
+                    <button onclick="loginData()"  type="button" class="logbtn3" id="loginbtn">Log in</button>
+
+
+                    <span id="createacc">Don't have an account?</span>
+                    <a href="./signup.html"><button type="button" class="Accbtn3">Sign up for free</button></a>
+                </form>
+            </div>
+
+            <div class="img">
+                <img alt="loginboxiamge" id="veclogimg" src="./Images/Illustrations/Data_security.jpg" />
+            </div>
+        </div>
+    </div>
+    <script src="JS/login.js"></script>
+</body>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

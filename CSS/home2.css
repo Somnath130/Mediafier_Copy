@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.uil {
+    color: white;
+}
+
+.topnav {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    width: 46px;
+    height: 47px;
+    left: 18px;
+    top: 18px;
+
+}
+
+.logoname {
+    position: absolute;
+    width: 105px;
+    height: 27px;
+    left: 77px;
+    top: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.sideitems {
+    position: absolute;
+    width: 241px;
+    height: 100vh;
+    left: 0px;
+    top: 100px;
+    background: #234B85;
+    border-radius: 0px 100px 0px 0px;
+}
+
+.navinput {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #ffffff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.uil-search {
+    padding: 15px;
+    color: #4f4f4f;
+}
+
+.fa-regular {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 80%;
+    top: 55%;
+    cursor: pointer;
+}
+
+.profileicon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 93%;
+    top: 20%;
+    border-radius: 50%;
+    background-color: #234B85;
+}
+
+.searchbox {
+
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    left: 22%;
+    top: 20%;
+    font-size: 10px;
+    font-weight: 500;
+    background: #ffffff;
+    border-radius: 12px;
+    border: .5px solid rgb(175, 175, 175);
+}
+
+.searchicon {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.fileupload {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 35px;
+    top: 50px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 78px;
+}
+
+.fileupload:hover {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    transition: .2s;
+}
+
+.dropdown-menu>a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #234B85;
+}
+
+.dropdown-menu {
+    height: 130px;
+    margin-top: -20px;
+    font-weight: 600;
+    line-height: 2.5rem;
+
+}
+
+.dropdown-menu>a {
+    font-size: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ellipse {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10x;
+    margin-left: 7px;
+    top: 5px;
+
+    border-radius: 50%;
+    background: #234B85;
+}
+
+.uil-plus {
+    color: white;
+}
+
+.uploadplus {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    margin-left: 7%;
+    margin-top: 7%;
+
+
+}
+
+.uploadtext {
+    margin-left: 40%;
+    font-weight: 600;
+    margin-top: 10%;
+    font-size: 18px;
+
+}
+
+.myDrive {
+    position: absolute;
+    width: 100%;
+    top: 21%;
+    padding: 5px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+
+}
+
+.myDrive:hover {
+    background-color: #4D7BBD;
+    transition: .1s;
+
+}
+
+
+.uil-cloud {
+    color: #FFFFFF;
+    margin-left: 14%;
+
+}
+
+.myDrivetext {
+    position: absolute;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    top: 4px;
+
+
+}
+
+/* Computer */
+.myPc {
+    position: absolute;
+    width: 100%;
+    top: 29%;
+    /* background-color: red; */
+    padding: 5px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+
+}
+
+.myPc:hover {
+    background-color: #4D7BBD;
+    transition: .1s;
+}
+
+
+.uil-desktop {
+    color: #FFFFFF;
+    margin-left: 13%;
+}
+
+.myPctext {
+    position: absolute;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    top: 5px;
+    cursor: pointer;
+
+}
+
+/* Trash */
+
+.myTrash {
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    padding: 5px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+.myTrash:hover {
+    background-color: #4D7BBD;
+    transition: .1s;
+}
+
+
+.uil-trash-alt {
+    color: #FFFFFF;
+    margin-left: 13%;
+}
+
+.myTrashtext {
+    position: absolute;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    top: 5px;
+    cursor: pointer;
+
+}
+
+/* Log out */
+
+.Logout {
+    position: absolute;
+    width: 100%;
+    top: 47%;
+    padding: 5px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+.Logout:hover {
+    background-color: #4D7BBD;
+    transition: .1s;
+}
+
+
+.uil-signout {
+    color: #FFFFFF;
+    margin-left: 13%;
+}
+
+.logouttext {
+    position: absolute;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    top: 5px;
+    cursor: pointer;
+
+}
+
+.upgradeimg {
+    position: absolute;
+    height: 90px;
+    top: 65%;
+    left: 26%;
+}
+
+#upgradehead {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 80%;
+    left: 16%;
+}
+
+#upgradetext {
+    position: absolute;
+    color: white;
+    top: 84%;
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+}
+
+.upgradebtn {
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 20%;
+    top: 92%;
+    font-weight: 700;
+    color: #234B85;
+    cursor: pointer;
+
+}
+
+.upgradebtn:hover {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    transition: .2s;
+    background-color: #4D7BBD;
+    color: #ffffff;
+}
+
+#btnup {
+    margin-left: 14%;
+
+}
+
+.fileimage {
+    height: 100px;
+    width: 100px;
+    margin-left: 43%;
+}
+
+
+.add_folder {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+#FormControlInput1 {
+    width: 80%;
+}
+
+.modal-body {
+    display: inline-flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+#fileupload {
+    display: none;
+}
+
+#folderupload
+{
+    display: none;
+}
+
+#box {
+
+    width: 15rem;
+    height: 11rem;
+    margin: 5px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+    background: white;
+    position: relative;
+    margin-bottom: 4rem;
+    /* border: .5px solid rgb(198, 198, 198); */
+}
+
+
+#box:before,
+#box:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+#box:after {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+    right: 10px;
+    left: auto;
+}
+
+#imgbox {
+    height: 100px;
+    width: 100px;
+}
+#folderImageText
+{
+    font-size: .6em;
+    font-weight: 500;
+    text-align: center;
+}
+
+#folderImage
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foldercontainer {
+    position: absolute;
+    /* background-color: rgb(255, 12, 12); */
+    color: #000000;
+    float: right;
+    height: 92vh;
+    width: 82%;
+
+    left: 19%;
+    top: 18%;
+}
+
+.folderText {
+    font-size: 25px;
+
+    font-weight: 700;
+    color: #234B85;
+}
+
+#folderContent {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #260162; */
+    padding: 10px;
+}
+
+#folderText {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#icondesign {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1000px) {
+    nav {
+        width: 73px;
+    }
+
+    nav.close {
+        width: 250px;
+    }
+
+    nav .logo_name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav.close .logo_name {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    nav li a .link-name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav.close li a .link-name {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    nav~.dashboard {
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+
+    nav.close~.dashboard {
+        left: 250px;
+        width: calc(100% - 250px);
+    }
+
+    nav~.dashboard .top {
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+
+    nav.close~.dashboard .top {
+        left: 250px;
+        width: calc(100% - 250px);
+    }
+
+    .activity .activity-data {
+        overflow-X: scroll;
+    }
+}
+
+@media (max-width: 780px) {
+    .dash-content .boxes .box {
+        width: calc(100% / 2 - 15px);
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 560px) {
+    .dash-content .boxes .box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    nav {
+        width: 0px;
+    }
+
+    nav.close {
+        width: 73px;
+    }
+
+    nav .logo_name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav.close .logo_name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav li a .link-name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav.close li a .link-name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav~.dashboard {
+        left: 0;
+        width: 100%;
+    }
+
+    nav.close~.dashboard {
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+
+    nav~.dashboard .top {
+        left: 0;
+        width: 100%;
+    }
+
+    nav.close~.dashboard .top {
+        left: 0;
+        width: 100%;
+    }
+}
