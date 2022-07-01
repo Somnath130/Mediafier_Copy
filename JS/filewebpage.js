@@ -40,7 +40,6 @@ async function addfile() {
   }
 }
 
-
 function listFiles() {
   try {
     var create = document.getElementById("folderContent");
@@ -154,8 +153,6 @@ function deleteFileFunc(did) {
     });
 }
 
-
-
 function del(did) {
   var d = "";
   var requestOptions = {
@@ -172,7 +169,6 @@ function del(did) {
 }
 
 function view(docId, docName, docCreatedBy, docCreatedAt) {
-
   Swal.fire({
     title:
       "docId:" +
@@ -194,7 +190,6 @@ function view(docId, docName, docCreatedBy, docCreatedAt) {
       popup: "animate__animated animate__fadeOutUp",
     },
   });
-
 }
 
 function onLoad() {

@@ -59,7 +59,6 @@ D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\bin\Debug\netcor
 D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.runtimeconfig.dev.json
 D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.dll
 D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\bin\Debug\netcoreapp2.1\mediafierWebApp.pdb
-D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csprojAssemblyReference.cache
 D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.csproj.CoreCompileInputs.cache
 D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cache
 D:\mediafier copy\Mediafer_copy\mediafierWebApp\mediafierWebApp\obj\Debug\netcoreapp2.1\mediafierWebApp.RazorAssemblyInfo.cs
