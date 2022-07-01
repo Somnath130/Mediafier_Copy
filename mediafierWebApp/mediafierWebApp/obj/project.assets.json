@@ -12818,11 +12818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mediafier copy\\Mediafer\\mediafierWebApp\\mediafierWebApp\\mediafierWebApp.csproj",
+      "projectUniqueName": "D:\\mediafier copy\\Mediafer_copy\\mediafierWebApp\\mediafierWebApp\\mediafierWebApp.csproj",
       "projectName": "mediafierWebApp",
-      "projectPath": "D:\\mediafier copy\\Mediafer\\mediafierWebApp\\mediafierWebApp\\mediafierWebApp.csproj",
+      "projectPath": "D:\\mediafier copy\\Mediafer_copy\\mediafierWebApp\\mediafierWebApp\\mediafierWebApp.csproj",
       "packagesPath": "C:\\Users\\somnath.goswami\\.nuget\\packages\\",
-      "outputPath": "D:\\mediafier copy\\Mediafer\\mediafierWebApp\\mediafierWebApp\\obj\\",
+      "outputPath": "D:\\mediafier copy\\Mediafer_copy\\mediafierWebApp\\mediafierWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

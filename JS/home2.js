@@ -56,7 +56,7 @@ function listFolders() {
 
           icondiv.innerHTML = `<img onclick='view(${folder.foldersId},"${folder.foldersName}",${folder.foldersCreatedBy},"${folder.foldersCreatedAt}")'  style="height: 1.3rem;width: 1.3rem;float:right;cursor:pointer;" src="Images/Illustrations/info.png"><img onclick='deleteFileFunc(${fid})' style="height: 1.5rem;width: 1.3rem;float:right;cursor:pointer;" src="Images/Illustrations/trash.png">`;
 
-          folderBox.innerHTML = `<div id="imagefolderBox"><div id="folderBoxImage" style="height: 88%;width: 100%;display: inline-grid; justify-content: "center">
+          folderBox.innerHTML = `<div id="imagefolderBox"><div id="favouriteimg"><img onclick="addFavourite()" class="heart" src="./Images/heart.png" alt="likeimage"><img onclick="addFavourite()" class="heart" src="./Images/like.png" alt="likeimage"></div><div id="folderBoxImage" style="height: 88%;width: 100%;display: inline-grid; justify-content: "center">
           <img onclick="openFiles(${folder.foldersId})" id="folderImage" style="height: 4rem;width: 4rem;cursor:pointer;" src='Images/Illustrations/folderadd.png'></div><div id="folderImageText">${fold}</div> </div>`;
 
           divBox.appendChild(folderBox);
@@ -205,5 +205,17 @@ function logout() {
 function onLoad() {
   listFolders();
 }
+
+
+ function addFavourite() {
+   var favImg = document.getElementsByClassName("heart").src; //= 'Images/Minus.gif';
+
+   if (favImg) {
+     document.getElementById("imgplus").src = "./Images/like.png";
+   } else if (!img) {
+     document.getElementById("imgplus").src = "./Images/heart.png";
+     alert(img);
+   }
+ }
 
 onLoad();

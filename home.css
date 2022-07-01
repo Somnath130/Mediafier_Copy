@@ -185,8 +185,8 @@ a.article:hover {
 
 #box {
 
-    width: 15rem;
-    height: 11rem;
+    width: 16rem;
+
     margin: 5px;
     padding: 20px;
     font-size: 25px;
@@ -280,6 +280,7 @@ a.article:hover {
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .dropdown-menu>a:hover {
@@ -312,6 +313,21 @@ a.article:hover {
     background-color: #ffffff;
     color: #234B85;
 }
+
+#favouriteimg
+{
+       display: flex;
+       justify-content: right;
+       margin-bottom: 1rem;
+       cursor: pointer;
+}
+
+.heart
+{
+        height: 1.2rem;
+        width: 1.2rem;
+}
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
